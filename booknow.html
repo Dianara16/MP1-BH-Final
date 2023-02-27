@@ -59,13 +59,13 @@
     <!--Nav Bar ends here-->
     <br> <br>  <br>
     <br>
+    <!--Form starts here-->
     <div class="container">
        
         <form class="needs-validation form-control bg-black mx-50 mb-5 p-5" novalidate>
-         <div class="bg-info p-2"><h2>Booking Form</h2></div>  
+         <div class="title text-light p-2"><h1>Booking Form</h1></div>  
             <hr>
-        <h5 class="btext">Thank you for interest in working with us. Please check below for available job opportunities that meet 
-            your criteria and send your application by filling out the Job Application Form
+        <h5 class="btext">
         </h5><br>
         <div class="row">
         <div class="col">
@@ -140,11 +140,21 @@
             <option value="1">Hair color</option>
             <option value="2">Hair Cut</option>
             <option value="3">Hair Rebond</option>
-            <option value="4">Manager</option>
+            <option value="4">Make up</option>
         </select>
         </div>
-        
         <div class="col">
+          <label>Stylist</label><br>
+          <select class="form-select" aria-label=".form-select-lg example" required>
+              <div class="valid-feedback">Valid</div>
+              <div class="invalid-feedback">Please fill out this field</div>
+      
+              <option></option>
+              <option value="1">Vanessa Alaba</option>
+              <option value="2">Ruffy Sajulga</option>
+                        </select>
+          </div>
+            <div class="col">
             <label>Date</label>
             <input type="date" class="form-control" id="date" placeholder="MM/DD/YYY" type="text"required>
               <div class="valid-feedback">Valid</div>
@@ -160,49 +170,7 @@
     </div>
 
     <br>
-    <div class="row">
-        <div class="col">
-            <label>Preferred method of contact</label> <br>
-            <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault1" required>
-            <label class="form-check-label" for="flexRadioDefault2">Email</label>
-           
-            <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault1">
-            <label class="form-check-label" for="flexRadioDefault2">Phone</label>
-           
-            <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault1">
-            <label class="form-check-label" for="flexRadioDefault2">SocMed</label>
-          
-            </div>
-        </div>
-        <br>
-                 <br>
-        <div class="row">
-            <div class="col">
-                <label> Name of reference</label>
-                <input type="text" class="form-control" placeholder="First Name" name="" required>
-                <div class="valid-feedback">Valid</div>
-                <div class="invalid-feedback">Please fill out this field</div>
-                 </div>
-            
-                <div class="col">
-                 <label></label>
-                <input type="text" class="form-control" placeholder="Last Name" name="" required>
-                <div class="valid-feedback">Valid</div>
-                <div class="invalid-feedback">Please fill out this field</div>
-                </div>
-        </div>
-        <br>
-        <div class="row">
-            <div class="col">
-                <label>Email</label>
-                <input type="email" class="form-control" placeholder="@gmail.com" name="email" required>
-                <div class="valid-feedback">Valid</div>
-                <div class="invalid-feedback">Please fill out this field</div>
-    
-            </div>
-        </div>
-    
-    
+       
     <!---This is buttons-->
         <br> <br>
         <center>
