@@ -92,3 +92,8 @@ padding: 20px;
   --bs-popover-body-padding-x: 1rem;
   --bs-popover-body-padding-y: .5rem;
 }
+
+.label {
+color: black;
+
+}

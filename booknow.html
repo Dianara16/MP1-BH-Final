@@ -59,12 +59,12 @@
     <!--Nav Bar ends here-->
     <br> <br>  <br>
     <br>
-    <div class="container bg-info">
+    <div class="container">
        
-        <form class="needs-validation form-control bg-white  mx-25 mb-5" novalidate>
-         <div class="bg-info p-2"><h2>Job Application</h2></div>  
+        <form class="needs-validation form-control bg-black mx-25 mb-5" novalidate>
+         <div class="bg-info p-2"><h2>Booking Form</h2></div>  
             <hr>
-        <h5>Thank you for interest in working with us. Please check below for available job opportunities that meet 
+        <h5 class="btext">Thank you for interest in working with us. Please check below for available job opportunities that meet 
             your criteria and send your application by filling out the Job Application Form
         </h5><br>
         <div class="row">
@@ -108,15 +108,6 @@
         <div class="valid-feedback">Valid</div>
         <div class="invalid-feedback">Please fill out this field</div>
     </div>
-    
-    <div class="col-md-2">
-        <label>Zip Code</label>
-        <input type="text" class="form-control" placeholder="" name="" required>
-        <div class="valid-feedback">Valid</div>
-        <div class="invalid-feedback">Please fill out this field</div>
-    </div>
-    
-    
     </div>
     
     
@@ -128,26 +119,27 @@
         <div class="valid-feedback">Valid</div>
         <div class="invalid-feedback">Please fill out this field</div>
     </div>
-    
+   
     <div class="col">
         <label>Contact Number</label>
-        <input type="number" class="form-control" placeholder="" name="number" required>
+        <input type="number" class="form-control" placeholder="" name="text" required>
         <div class="valid-feedback">Valid</div>
         <div class="invalid-feedback">Please fill out this field</div>
     </div>
+
     </div>
     <br>
     <div class="row">
         <div class="col">
-        <label>What position are you applying for?</label><br>
+        <label>Services</label><br>
         <select class="form-select" aria-label=".form-select-lg example" required>
             <div class="valid-feedback">Valid</div>
             <div class="invalid-feedback">Please fill out this field</div>
     
             <option></option>
-            <option value="1">Manager</option>
-            <option value="2">Clerk</option>
-            <option value="3">Cashier</option>
+            <option value="1">Hair color</option>
+            <option value="2">Hair Cut</option>
+            <option value="3">Hair Rebond</option>
             <option value="4">Manager</option>
         </select>
         </div>
@@ -162,38 +154,19 @@
     <br>
     <div class="row">
         <div class="col">
-            <label>What is your current employee status?</label> <br>
+            <label>Preferred method of contract</label> <br>
             <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault1" required>
-            <label class="form-check-label" for="flexRadioDefault2"> Employed</label>
+            <label class="form-check-label" for="flexRadioDefault2">Email</label>
            
             <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault1">
-            <label class="form-check-label" for="flexRadioDefault2"> Self-Employed</label>
+            <label class="form-check-label" for="flexRadioDefault2">Phone</label>
            
             <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault1">
-            <label class="form-check-label" for="flexRadioDefault2"> Self-Employed</label>
+            <label class="form-check-label" for="flexRadioDefault2">SocMed</label>
           
-          
-            <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault1">
-            <label class="form-check-label" for="flexRadioDefault2"> Self-Employed</label>
-            
-        </div>
+            </div>
         </div>
         <br>
-        <div class="row">
-            <div class="col">
-                <label> Please provide your resume link</label>
-                <input type="text" class="form-control" placeholder="" name="" required>
-                <div class="valid-feedback">Valid</div>
-                <div class="invalid-feedback">Please fill out this field</div>
-                </div>
-    
-                <div class="col">
-                    <label>Please upload your resume</label>
-                    <input type="file" class="form-control" placeholder="" name="" required>
-                    <div class="valid-feedback">Valid</div>
-                    <div class="invalid-feedback">Please fill out this field</div>
-                    </div>
-                 </div>
                  <br>
         <div class="row">
             <div class="col">
@@ -233,27 +206,28 @@
     </form>
     </div>    
     
+
     <!-----This is for validation-->
-    <script>
-        // Example starter JavaScript for disabling form submissions if there are invalid fields
+<script>
+ // Example starter JavaScript for disabling form submissions if there are invalid fields
     (() => {
       'use strict'
     
-      // Fetch all the forms we want to apply custom Bootstrap validation styles to
-      const forms = document.querySelectorAll('.needs-validation')
+// Fetch all the forms we want to apply custom Bootstrap validation styles to
+    const forms = document.querySelectorAll('.needs-validation')
     
-      // Loop over them and prevent submission
-      Array.from(forms).forEach(form => {
-        form.addEventListener('submit', event => {
-          if (!form.checkValidity()) {
-            event.preventDefault()
-            event.stopPropagation()
-          }
+// Loop over them and prevent submission
+    Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+    if (!form.checkValidity()) {
+    event.preventDefault()
+    event.stopPropagation()
+    }
     
-          form.classList.add('was-validated')
+     form.classList.add('was-validated')
         }, false)
       })
     })()
-        </script>
+ </script>
 </body>
 </html>
