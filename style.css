@@ -85,3 +85,18 @@ padding: 20px;
 color: black;
 
 }
+
+.btn-facebook {
+    background: #3b579d;
+    color: #ffffff;
+}
+
+.btn-twitter {
+    background: #2caae1;
+    color: #ffffff;
+}
+
+.btn-instagram {
+    background: #dc4a38;
+    color: #ffffff;
+}
