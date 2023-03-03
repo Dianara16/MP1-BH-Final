@@ -74,11 +74,11 @@ padding: 20px;
      
 }
 
-.item img {
-  min-height: 600px;
-  min-width: 1000px;
- 
-}
+.images {
+    min-height: 600px;
+    min-width: 1000px;
+   
+  }
 
 
 .label {
