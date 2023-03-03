@@ -60,7 +60,7 @@ padding: 20px;
 
 .nav-item:hover{
     transform: scale(1.07);
-   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+   box-shadow: 0 10px 20px rgba(8, 8, 8, 0.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
 
@@ -84,19 +84,4 @@ padding: 20px;
 .label {
 color: black;
 
-}
-
-.btn-facebook {
-    background: #3b579d;
-    color: #ffffff;
-}
-
-.btn-twitter {
-    background: #2caae1;
-    color: #ffffff;
-}
-
-.btn-instagram {
-    background: #dc4a38;
-    color: #ffffff;
 }
