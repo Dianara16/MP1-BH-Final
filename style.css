@@ -1,6 +1,6 @@
 body {
 
-    font-family: monospace;
+    font-family: 'Times New Roman', serif;
 }
 
 
@@ -13,7 +13,7 @@ padding: 20px;
 
 .footer {
     width: 100%;
-    background-color: #DAA425;
+    background-color: #FFF4C2;
     text-align: center;
     padding: 50px;
        
